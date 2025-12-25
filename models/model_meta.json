@@ -1,0 +1,12 @@
+{
+  "model_type": "IsolationForest",
+  "features": [
+    "temperature_c",
+    "humidity_pct",
+    "sound_db"
+  ],
+  "n_samples": 5000,
+  "contamination": 0.03,
+  "random_state": 42,
+  "artifact": "models/isoforest.joblib"
+}
